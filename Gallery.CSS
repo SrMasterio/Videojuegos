@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Titillium+Web:wght@200&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    background-image: url(../IMG/f.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    font-family: 'Kdam Thmor Pro';
+}
+h1{
+    font-family: 'Kdam Thmor Pro';
+    color: #fff;
+    text-align: center;
+}
+hr{
+    border: 1px dotted blue;
+}
+ul{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+padding: 10;
+ margin-left: 60px;
+ list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color:blueviolet;
+    position: relative;
+    left: 385px;
+}
+
+.avideo{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+video {
+width: 500px;
+}
+
+audio {
+
+    width: 500px;
+    }
+
+
+p{
+    color: #fff;
+}
